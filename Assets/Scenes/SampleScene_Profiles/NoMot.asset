@@ -171,31 +171,31 @@ MonoBehaviour:
     value: 0
   mixerRedOutRedIn:
     overrideState: 1
-    value: 100
+    value: 155
   mixerRedOutGreenIn:
     overrideState: 1
-    value: 100
+    value: 26
   mixerRedOutBlueIn:
     overrideState: 1
-    value: 0
+    value: -19
   mixerGreenOutRedIn:
     overrideState: 1
     value: 0
   mixerGreenOutGreenIn:
     overrideState: 1
-    value: 200
+    value: 137
   mixerGreenOutBlueIn:
     overrideState: 1
-    value: 0
+    value: 3
   mixerBlueOutRedIn:
     overrideState: 1
     value: 0
   mixerBlueOutGreenIn:
     overrideState: 1
-    value: -40
+    value: 0
   mixerBlueOutBlueIn:
     overrideState: 1
-    value: 200
+    value: 137
   lift:
     overrideState: 0
     value: {x: 1, y: 1, z: 1, w: 0}
@@ -1423,13 +1423,13 @@ MonoBehaviour:
     value: 1
   filtering:
     overrideState: 1
-    value: {x: 1, y: 45.999996}
+    value: {x: 26.083334, y: 71.083336}
   minLuminance:
     overrideState: 1
-    value: 1.6
+    value: -1.1
   maxLuminance:
     overrideState: 1
-    value: 9
+    value: 7.7
   keyValue:
     overrideState: 0
     value: 1
