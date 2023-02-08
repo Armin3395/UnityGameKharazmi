@@ -51,6 +51,6 @@ public class PlayerHealth : MonoBehaviour
     }
     public void RespawnVoid()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Level 1");
     }
 }
