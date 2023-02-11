@@ -21,6 +21,8 @@ public class Movement : MonoBehaviour
     public WallRunning wallScript;
     public bool canjump1 = false;
 
+    public Inventory inventory;
+
     private float fps = 30f;
 
     void OnGUI()
@@ -110,4 +112,14 @@ public class Movement : MonoBehaviour
         Gizmos.color = Color.yellow;    
         Gizmos.DrawSphere(groundCheck.position, groundDistance);
     }*/
+
+    // its for Inventory
+    public void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
+        if (item != null)
+        {
+            inventory.AddItem(item);
+        }
+    }
 }
