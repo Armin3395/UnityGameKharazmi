@@ -36,7 +36,7 @@ public class PlayerHealth : MonoBehaviour
         {
             health = 0;
         }
-        HealthBar.rectTransform.localScale = new(health/100, HealthBar.rectTransform.localScale.y, HealthBar.rectTransform.localScale.z);
+        HealthBar.rectTransform.localScale = new(health/50, HealthBar.rectTransform.localScale.y, HealthBar.rectTransform.localScale.z);
     }
     public void OnParticleCollision(GameObject PlayerObj)
     {
