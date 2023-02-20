@@ -1,24 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class damageThis : MonoBehaviour
 {
     public Animator CylinderAnim;
+    int HP = 100;
+    bool canGo = true;
 
-    private void Start()
+
+    private void Update()
     {
-        CylinderAnim = gameObject.GetComponent<Animator>();
+        Debug.Log(HP);  
+        if (HP <= 0)
+        {
+            if (canGo)
+            {
+            CylinderAnim.SetTrigger("moveLeft");
+                canGo = false;
+            }
+        }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (gameObject.layer == 12)
+        if (other.gameObject.layer == 13)
         {
-            if (collision.gameObject.layer == 13)
-            {
-                CylinderAnim.SetTrigger("moveLeft");
-            }
+            HP -= 15;
         }
     }
 }
