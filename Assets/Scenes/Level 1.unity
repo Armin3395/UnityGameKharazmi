@@ -6619,7 +6619,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 98186cec362442243a755429746e9b50, type: 2}
+  - {fileID: 2100000, guid: 398efa67f151f2644bfe2b0971ae0b68, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7012,7 +7012,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 98186cec362442243a755429746e9b50, type: 2}
+  - {fileID: 2100000, guid: 398efa67f151f2644bfe2b0971ae0b68, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -38556,7 +38556,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 98186cec362442243a755429746e9b50, type: 2}
+  - {fileID: 2100000, guid: 398efa67f151f2644bfe2b0971ae0b68, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -42242,7 +42242,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 98186cec362442243a755429746e9b50, type: 2}
+  - {fileID: 2100000, guid: 398efa67f151f2644bfe2b0971ae0b68, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -43316,7 +43316,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2051805748}
-  m_Layer: 0
+  - component: {fileID: 2051805749}
+  m_Layer: 7
   m_Name: PostObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43338,6 +43339,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2051805749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051805747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: b05dbd562d05c534ba5c8ab5b2838149, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
 --- !u!1001 &2057991883
 PrefabInstance:
   m_ObjectHideFlags: 0
