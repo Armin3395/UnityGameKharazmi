@@ -19,6 +19,7 @@ public class SettingsScript : MonoBehaviour
     public Button button5;
     public Button button6;
     public Button button7;
+    public Button button8;
 
     public Movement moveScript;
     public WallRunning WallScript;
@@ -50,6 +51,7 @@ public class SettingsScript : MonoBehaviour
             button5.gameObject.SetActive(false);
             button6.gameObject.SetActive(false);
             button7.gameObject.SetActive(false);
+            button8.gameObject.SetActive(false);
             moveScript.enabled = true;
             WallScript.enabled = true;
             GrappleScript.enabled = true;
@@ -67,6 +69,7 @@ public class SettingsScript : MonoBehaviour
             button5.gameObject.SetActive(true);
             button6.gameObject.SetActive(true);
             button7.gameObject.SetActive(true);
+            button8.gameObject.SetActive(true);
             moveScript.enabled = false;
             WallScript.enabled = false;
             GrappleScript.enabled = false;
