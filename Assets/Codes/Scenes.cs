@@ -12,6 +12,14 @@ public class Scenes : MonoBehaviour
         //CurrentScene = SceneManager.GetActiveScene().name;
         //EditorSceneManager.OpenScene(SceneName);
         SceneManager.LoadScene(SceneName);
+        if (SceneName == "Menu")
+        {
+            Cursor.lockState = CursorLockMode.Confined;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
         //SceneManager.UnloadSceneAsync(CurrentScene);
     }
 }

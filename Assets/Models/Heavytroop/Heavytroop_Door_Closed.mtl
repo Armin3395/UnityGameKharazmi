@@ -1,0 +1,150 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 6.3 x64 6.3.3.8069
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl v202_helicopter_heavytroop_glas
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd v202_helicopter_heavytroop_glass_alpha_dif.dds
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Air_Helicopter_Body
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd air_helicopter_body_dif.dds
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl v202_helicopter_heavytroop_roto
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd v202_helicopter_heavytroop_rotor_main_alpha_dif.dds
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl v202_helicopter_heavytroop_roto0
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd v202_helicopter_heavytroop_rotor_tail_alpha_dif.dds
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl V202_Helicopter_Heavytroop_Part
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd v202_helicopter_heavytroop_parts_dif.dds
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl air_helicopter_interior
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd air_helicopter_interior_dif.dds
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Explorer_Default
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Blackhand_Lights
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd blackhand_lights_alpha_dif.dds
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Blackhand_Glass_Lights
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd blackhand_lights_alpha_dif.dds
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
