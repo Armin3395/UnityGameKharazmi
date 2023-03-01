@@ -121,7 +121,7 @@ MonoBehaviour:
   kernelSize:
     overrideState: 0
     value: 1
---- !u!114 &-7717846610970692274
+--- !u!114 &-6303490952766492424
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,7 +136,7 @@ MonoBehaviour:
   active: 1
   enabled:
     overrideState: 1
-    value: 1
+    value: 0
   shutterAngle:
     overrideState: 1
     value: 270
@@ -195,12 +195,12 @@ MonoBehaviour:
   - {fileID: -8888253175226979905}
   - {fileID: 5547120513508378477}
   - {fileID: 6088009030076766635}
-  - {fileID: -7717846610970692274}
   - {fileID: 580055244301858361}
   - {fileID: 5485448120862226314}
   - {fileID: 4947007144121857475}
   - {fileID: -8658887690826547727}
   - {fileID: 2525152820176320029}
+  - {fileID: -6303490952766492424}
 --- !u!114 &580055244301858361
 MonoBehaviour:
   m_ObjectHideFlags: 3
