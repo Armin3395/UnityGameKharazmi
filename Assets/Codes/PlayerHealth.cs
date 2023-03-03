@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
+    //this script is used for player's health, death and respawning
     public float health = 100;
     public Image HealthBar;
     public Movement moveScript;
@@ -15,7 +16,7 @@ public class PlayerHealth : MonoBehaviour
     public SwordScript SwordScr;
     public Image RedDie;
     public Button Respawn;
-
+    string currentSceneName;
     private void Update()
     {
         if (health <= 0)
@@ -51,6 +52,7 @@ public class PlayerHealth : MonoBehaviour
     }
     public void RespawnVoid()
     {
-        SceneManager.LoadScene("Level 1");
+        currentSceneName = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(currentSceneName);
     }
 }

@@ -5,6 +5,7 @@ using static UnityEngine.GraphicsBuffer;
 
 public class grapple : MonoBehaviour
 {
+    //this script moves the player to gameobjects with Grappleable layer, but it has some problems so it's not used much in the game
     public Transform camTrans;
     public Transform playerTrans;
     public float speed = 10.0f;

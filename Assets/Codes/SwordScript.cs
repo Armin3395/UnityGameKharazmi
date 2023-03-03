@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class SwordScript : MonoBehaviour
 {
+    //this script is used for sword's animations
     public Animator anim;
     public IEnumerator coroutine;
 

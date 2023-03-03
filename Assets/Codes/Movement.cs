@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    //this script is used for player movement. it's based on Unity characterController.
+    //https://docs.unity3d.com/ScriptReference/CharacterController.Move.html
+
     public CharacterController controller;
     public float speed = 15f;
     Vector3 velocity;
