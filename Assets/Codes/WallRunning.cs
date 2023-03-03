@@ -18,8 +18,10 @@ public class WallRunning : MonoBehaviour
         RaycastHit hit;
         float a = playrt.position.y;
 
+        //check if there is a wall on player's right side
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right), out hit, 3f, LayerMaskInt))
         {
+            //give player one jump per wall
             if (exmp == false)
             {
                 moveScript.canjump1 = true;
@@ -37,12 +39,14 @@ public class WallRunning : MonoBehaviour
             }
             if (!moveScript.isgrounded)
             {
+                //rotate the camera in Z axis based on the distance between player and wall
                 CamTrans.localEulerAngles = new(0, 0, 24 * (3.5f - hit.distance));
             }
             moveScript.IsWall = true;
         }
         if (Physics.Raycast(playrt.position, transform.TransformDirection(Vector3.left), out hit, 3f, LayerMaskInt))
         {
+            //the same as above, but for the left side of player
             if (exmp == false)
             {
                 moveScript.canjump1 = true;
@@ -66,6 +70,7 @@ public class WallRunning : MonoBehaviour
         }
         if (Physics.Raycast(playrt.position, transform.TransformDirection(Vector3.right), out hit, 3f, LayerMaskInt) == false && Physics.Raycast(transform.position, transform.TransformDirection(Vector3.left), out hit, 2f, LayerMaskInt) == false)
         {
+            //if there are no walls nearby
             exmp = false;
             CamTrans.localEulerAngles = new(0, 0, 0);
             moveScript.IsWall = false;

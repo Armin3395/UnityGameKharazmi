@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Scenes : MonoBehaviour
 {
+    //this script is used for changing and moving between scenes
     string CurrentScene;
     public void ChangeScene(string SceneName)
     {

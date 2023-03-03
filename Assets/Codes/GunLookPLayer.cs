@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//this script is for a turret gun that should be rotated to look at player and shoot the player
 public class GunLookPLayer : MonoBehaviour
 {
     public Transform PlayerT;
