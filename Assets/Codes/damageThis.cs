@@ -12,7 +12,6 @@ public class damageThis : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(HP);  
         if (HP <= 0)
         {
             if (canGo)
