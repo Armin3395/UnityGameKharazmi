@@ -1,0 +1,1 @@
+Thank You For Downloading My Model! It means alot to me. Use it any way you like, Unity, Unreal, Etc. It Would Be nice if you give me credit for the knife But for games you dont have to. Just for give credit for youtube use. Otherwise Enjoy My Model! :D, Made 3/11/17 - Jagdoe

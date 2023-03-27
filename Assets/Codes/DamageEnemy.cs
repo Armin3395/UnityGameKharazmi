@@ -23,7 +23,6 @@ public class DamageEnemy : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(HP);
         if (HP <= 0)
         {
             //die
