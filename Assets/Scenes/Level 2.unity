@@ -1538,7 +1538,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 290374198}
-  m_RootOrder: 374
+  m_RootOrder: 373
   m_LocalEulerAnglesHint: {x: 0, y: -192.444, z: 0}
 --- !u!64 &68193248
 MeshCollider:
@@ -11311,8 +11311,8 @@ Transform:
   - {fileID: 1856950721}
   - {fileID: 1682466334}
   - {fileID: 138564351}
-  - {fileID: 1381466067}
   - {fileID: 68193247}
+  - {fileID: 1381466067}
   - {fileID: 202428292}
   - {fileID: 285180713}
   - {fileID: 638552095}
