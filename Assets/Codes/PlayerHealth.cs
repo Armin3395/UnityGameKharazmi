@@ -46,6 +46,13 @@ public class PlayerHealth : MonoBehaviour
             TakeDamage(10);
         }
     }
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.layer == 15)
+        {
+            TakeDamage(5);
+        }
+    }
     public void TakeDamage(float damage)
     {
         health -= damage;

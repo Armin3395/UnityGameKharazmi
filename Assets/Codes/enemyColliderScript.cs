@@ -41,8 +41,9 @@ public class enemyColliderScript : MonoBehaviour
     private void Update()
     {
         if (canMove)
-        {
-            EnemyTr.Translate(0f, 0f, speed * Time.deltaTime);
+        {   //movetoplayer = new(playerTr.position.x, playerTr.position.y, playerTr.position.z);
+            //Vector3.MoveTowards(EnemyTr.position, playerTr.position, 5f);
+            EnemyTr.Translate(Vector3.forward * Time.deltaTime * 8);
         }
         if (!((EnemyTr.position - playerTr.position).magnitude > 12f))
         {
